@@ -1,4 +1,4 @@
-import java.lang.Error
+package Tasks
 
 class Task1_LeapYears {
     fun verifyLeapYear(year: Int): Boolean {

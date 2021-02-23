@@ -1,9 +1,11 @@
+package Tasks;
+
 public class Task2_TwoFightersOneWinner {
 
     public static void main(String[] args) {
-        Fighter fighter1 = new Fighter("Bob",10,5);
-        Fighter fighter2 = new Fighter("Lol",90,2);
-        System.out.println(declareWinner(fighter1,fighter2,"Bob"));
+        Fighter fighter1 = new Fighter("Bob", 10, 5);
+        Fighter fighter2 = new Fighter("Lol", 90, 2);
+        System.out.println(declareWinner(fighter1, fighter2, "Bob"));
     }
 
 
@@ -35,7 +37,7 @@ public class Task2_TwoFightersOneWinner {
         }
         return winner;
     }
-    
+
     //I have chosen to use inner class
     public static class Fighter {
         public String name;

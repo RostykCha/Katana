@@ -1,3 +1,5 @@
+package Tasks;
+
 import org.junit.Test;
 
 import java.text.ParseException;
@@ -42,7 +44,7 @@ public class Task5_FizzBuzzCuckooClock {
                 for (int i = 0; i < numberToRepeat; i++) {
                     result += "Cuckoo ";
                 }
-                result = result.substring(0,result.length()-1);
+                result = result.substring(0, result.length() - 1);
             } else if (parsedTime % 30 == 0) {
                 result = "Cuckoo";
             } else if (parsedTime % 5 == 0 && parsedTime % 3 == 0) {
